@@ -1,0 +1,14 @@
+{
+    "name": "my-wallet",
+    "version": "1.0.0",
+    "description": "A simple Ethereum wallet",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "@lit-protocol/lit-node-client": "^2.2.61",
+        "ethereumjs-wallet": "^0.6.5",
+        "web3": "^1.5.3"
+    }
+}
